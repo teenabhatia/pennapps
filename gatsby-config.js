@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: path.join(__dirname, `src`, `images`),
+        path: path.join(`pennapps`, `src`, `images`),
       },
     },
     `gatsby-plugin-sharp`,
