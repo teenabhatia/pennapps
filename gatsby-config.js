@@ -6,12 +6,6 @@ module.exports = {
     title: `pennapps`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
-
-const path = require(`path`);
-
-module.exports = {
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -21,5 +15,6 @@ module.exports = {
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+
   ],
-};
+}
