@@ -1,9 +1,11 @@
 import * as React from "react"
 
 const pageStyles = {
-  color: "#FAF5E8",
+  color: "#232128",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  background: "#FAF5E8",
+
 }
 const headingStyles = {
   marginTop: 0,
