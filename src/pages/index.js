@@ -1,23 +1,4 @@
 import * as React from "react"
-import Image from 'src/components/Image';
-
-const Sunset = () => {
-  return (
-    <>
-      <p>Sunset Image</p>
-      <Image
-        src="banner.png"
-        className="mx-auto shadow-xl"
-        alt="Banner Image"
-        style={{
-          border: '10px solid green',
-        }}
-      />
-    </>
-  );
-};
-
-export default Sunset;
 
 const pageStyles = {
   color: "#232128",
