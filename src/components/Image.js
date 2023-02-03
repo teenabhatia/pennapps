@@ -1,7 +1,7 @@
-// import React, { useMemo } from 'react';
-// import { graphql, useStaticQuery } from 'gatsby';
-// import Img from 'gatsby-image';
-// import PropTypes from 'prop-types';
+import React, { useMemo } from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
+import Img from 'gatsby-image';
+import PropTypes from 'prop-types';
 
 // const Image = ({ src, ...rest }) => {
 //   const data = useStaticQuery(graphql`
@@ -43,18 +43,18 @@
 
 // export default Image;
 
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
-export function Banner() {
-  return (
-    <StaticImage 
-        src="../images/banner.png" 
-        alt="The Banner"
-        placeholder="blurred"
-        layout="fixed"
-        width={200}
-        height={200}
-    />
-  )
+// export function Banner() {
+//   return (
+//     <StaticImage 
+//         src="teenabhatia/pennapps/src/images/banner.png" 
+//         alt="The Banner"
+//         placeholder="blurred"
+//         layout="fixed"
+//         width={200}
+//         height={200}
+//     />
+//   )
         
-}
+// }
