@@ -1,9 +1,10 @@
 import * as React from "react"
 import Banner from "../images/banner.png"
+import Landing from "../images/landing-background.png"
 
 const pageStyles = {
   color: "#232128",
-  padding: 96,
+  // padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
   background: "#FAF5E8",
 
@@ -138,6 +139,9 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <span style={imgStyle}>
       <img src={Banner} alt="Banner"/>
+      </span>
+      <span style={imgStyle}>
+      <img src={Landing} alt="Landing"/>
       </span>
         
 
