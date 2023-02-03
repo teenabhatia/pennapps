@@ -1,5 +1,5 @@
 import * as React from "react"
-import Banner from "teenabhatia/pennapps/src/images/banner.png"
+import Banner from "../images/banner.png"
 
 const pageStyles = {
   color: "#232128",
