@@ -1,5 +1,5 @@
 import * as React from "react"
-import Image from "src/components/Image"
+import Banner from "../.../images/banner.png"
 
 const pageStyles = {
   color: "#232128",
@@ -134,6 +134,7 @@ const IndexPage = () => {
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
+      <img src={Banner} alt="Banner"/>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
@@ -174,23 +175,6 @@ const IndexPage = () => {
   )
 }
 
-const Banner = () => {
-  return (
-    <>
-      <p>Banner Image</p>
-      <Image
-        src="banner.png"
-        className="mx-auto shadow-xl"
-        alt="Sunset Image"
-        style={{
-          border: '10px solid green',
-        }}
-      />
-    </>
-  );
-};
-
-export default Banner
 
 export default IndexPage
 
