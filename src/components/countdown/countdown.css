@@ -1,0 +1,127 @@
+.countdown-timer {
+    position: absolute;
+    top: 410px;
+    left: 440px;
+    width: 600px;
+    height: 5px;
+
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 44px;
+    line-height: 56px;
+    
+    color: #1F4A38;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    position: absolute;
+    width: 130px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.box2 {
+    position: absolute;
+    width: 130px;
+    height: 118px;
+    left: 150px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.box3 {
+    position: absolute;
+    width: 130px;
+    height: 118px;
+    left: 300px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.box4 {
+    position: absolute;
+    width: 130px;
+    height: 118px;
+    left: 450px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.days {
+    position: absolute;
+    left: 40px;
+    top: 14px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 47px;
+    color: #40916C;
+}
+
+.hours {
+    position: absolute;
+    left: 38px;
+    top: 14px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 47px;
+    color: #40916C;
+}
+
+.seconds {
+    position: absolute;
+    left: 27px;
+    top: 14px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 47px;
+    color: #40916C;
+}
+
+.minutes {
+    position: absolute;
+    left: 31px;
+    top: 14px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 47px;
+    color: #40916C;
+}
+
+.countdown-timer span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.two-numbers {
+    width: 2ch;
+    position: absolute;
+    left: 35px;
+    top: 18px;
+}
+
+.three-numbers {
+    width: 2ch;
+}

@@ -1,20 +1,601 @@
+/* * {background-color: #FAF5E7} */
 .container {
-    margin: auto;
-    max-width: 500px;
+    /* margin: auto; */
+    /* max-width: 500px;
     font-family: sans-serif;
+    position: relative;;
+    margin: 0; */
+    position: absolute;
+    left: 120px;
+    width: 1440px;
+    height: 3514px;
+    
+    background: #FAF5E7;
   }
+  .landing-page {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+      }
   
   .heading {
     color: rebeccapurple;
+    align-items: center;
+    margin: 0;
   }
-  .nav-links {
+  .body {
+    position: relative;
+    width: 1440px;
+    height: 3514px;
+    
+    background: #FAF5E7;
+  }
+  .topnav {
+    position: absolute;
+    width: 1440px;
+    height: 81.71px;
+    left: calc(50% - 1440px/2);
+    top: 1023px;
+    
+    background: rgba(255, 255, 255, 0.8);
+  }
+  .frame {
     display: flex;
-    list-style: none;
-    padding-left: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    
+    position: absolute;
+    width: 146px;
+    height: 18px;
+    left: calc(50% - 146px/2 + 600px);
+    top: 1055px;
+    background: rgba(255, 255, 255, 0.8);
   }
-  .nav-link-item {
-    padding-right: 2rem;
+  .about {
+    width: 52px;
+    height: 18px;
+    
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    
+    color: #1F4A38;
+    background: rgba(255, 255, 255, 0.8);
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
   }
-  .nav-link-text {
-    color: black;
+  .apply {
+    width: 44px;
+    height: 18px;
+    
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    
+    color: #1F4A38;
+    background: rgba(255, 255, 255, 0.8);
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
+  .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 81.71px;
+    left: calc(50% - 1440px/2);
+    top: 1023px;
+    
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+  .image {
+    position: absolute;
+    width: 1440px;
+    height: 505px;
+    left: 0px;
+    top: 518px;
+    
+    /* width: 1440;
+    height: 505;
+    background-color: #FAF5E8;
+    margin: 0; */
+  }
+  .banner {
+    position: absolute;
+    width: 881px;
+    height: 77.86px;
+    left: 279px;
+    top: 249px;
+    /* position: absolute;
+    top: 150px;
+    left: 425px;
+    background-color: #FAF5E8;
+    margin: auto;
+    display: flex;
+    justify-content: center;  */
+ }
+ .date {
+    position: absolute;
+    width: 255px;
+    height: 25px;
+    left: 894px;
+    top: 351px;
+    
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #1F4A38;
+    
+ }
+ .pennapps {
+    position: absolute;
+    width: 125.08px;
+    height: 81.71px;
+    left: calc(50% - 125.08px/2 - 622.68px);
+    top: 1023px;
+    
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.025em;
+    
+    color: #1F4A38;
+    background: rgba(255, 255, 255, 0.8);
+ }
+ .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 635.25px;
+    left: 0px;
+    top: 1105px;
+
+    background: #F5EDD6;
+    border-radius: 0px 0px 30px 30px;
+ }
+ .beleaf{
+    position: absolute;
+    width: 550px;
+    height: 112px;
+    left: 435px;
+    top: 1251px;
+
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    background: #F5EDD6;
+
+    color: #1F4A38;
+ }
+ .hosted {
+  position: absolute;
+  width: 535.77px;
+  height: 63.06px;
+  left: 435px;
+  top: 1378.04px;
+  /* top: 1459.04px; */
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  background: #F5EDD6;
+
+  color: #1F4A38;
+ }
+ .about-text {
+  position: absolute;
+  width: 113.6px;
+  height: 46px;
+  left: 309.5px;
+  top: 1834.89px;
+
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+
+  color: #1F4A38;
+ }
+ .button {
+  position: absolute;
+  width: 103px;
+  height: 41px;
+  left: 436px;
+  top: 1471px;
+ }
+ .applyButton {
+  position: absolute;
+  left: 25.02%;
+  right: 3.02%;
+  top: 3.3%;
+  bottom: 2.44%;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 47px;
+  /* or 294% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #F5ECD6;
+ }
+ .button-rectangle {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #1F4A38;
+  border-radius: 30px;
+ }
+ .frame-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  position: absolute;
+  width: 849.5px;
+  height: 501px;
+  left: 309px;
+  top: 1921px;
+ }
+ .college {
+  position: absolute;
+  width: 612.58px;
+  height: 31px;
+  left: 0px;
+  top: 0px;
+  
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height */
+  
+  
+  color: #1F4A38;
+ }
+ .context {
+  position: absolute;
+  width: 849.19px;
+  height: 165.19px;
+  left: 0.31px;
+  top: 51px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+
+  color: #1F4A38;
+ }
+ .difference {
+  width: 405.14px;
+  height: 31px;
+  
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height */
+  
+  
+  color: #1F4A38;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+ }
+ .founded {
+  width: 849.12px;
+  height: 261.28px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+
+  color: #1F4A38;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+ }
+ .box {
+  width: 849.5px;
+  height: 216.19px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+ }
+
+ .box-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 17px;
+
+  width: 849.12px;
+  height: 309.28px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+ }
+ .apply-text {
+  position: absolute;
+  width: 98px;
+  height: 46px;
+  left: 309px;
+  top: 2462.08px;
+
+  /* Section header */
+
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+
+  color: #1F4A38;
+
+ }
+ .process {
+  position: absolute;
+  width: 400px;
+  height: 31px;
+  left: 309px;
+  top: 2548px;
+
+  /* Small header */
+
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height */
+
+
+  color: #1F4A38;
+ }
+ .thousands {
+  position: absolute;
+  width: 833px;
+  height: 301px;
+  left: 309px;
+  top: 2599px;
+
+  /* Body text */
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+
+  color: #1F4A38;
+ }
+ .footer-content {
+  position: absolute;
+  width: 1456.46px;
+  height: 572.24px;
+  left: 0;
+  top: 1508.01px;
+ }
+ .footer {
+  position: absolute;
+  width: 1456.46px;
+  height: 572.24px;
+  left:0;
+  top: 1508.01px;
+ }
+ .footer-background {
+  position: absolute;
+  width: 1456.46px;
+  height: 572.24px;
+  left: 0;
+  top: 1508.01px;
+ }
+ .footer-title {
+  position: absolute;
+  width: 134px;
+  height: 90px;
+  left: calc(50% - 134px/2 - 563px);
+  bottom: 173px;
+
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 45px;
+  /* or 90% */
+
+  text-align: center;
+
+  color: #FAF5E7;
+ }
+ .trademark {
+  position: absolute;
+  width: 218px;
+  height: 65px;
+  left: calc(50% - 218px/2 - 519.96px);
+  bottom: 89px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #FAF5E7;
+ }
+ .group {
+  position: absolute;
+  width: 264.97px;
+  height: 65px;
+  left: 625px;
+  top: 1935px;
+ }
+ .social {
+  position: absolute;
+  width: 72.97px;
+  height: 65px;
+  left: calc(50% - 72.97px/2 - 201.51px);
+  bottom: 117px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+
+  color: #FAF5E7;
+ }
+ .conduct {
+  position: absolute;
+  width: 123.46px;
+  height: 65px;
+  left: calc(50% - 123.46px/2 - 368.27px);
+  bottom: 117px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+
+  color: #FAF5E7;
+ }
+ .group-two {
+  position: absolute;
+  width: 292px;
+  height: 152px;
+  left: 1058px;
+  top: 1885px;
+ }
+ .group-three {
+  position: absolute;
+  width: 292px;
+  height: 125px;
+  left: 0px;
+  top: 1885px;
+ }
+ .logo {
+  position: absolute;
+  width: 277px;
+  height: 115px;
+  left: 0px;
+  bottom: 43.81px;
+
+  /* background: url(penn_logo_blue.png); */
+  border-radius: 5px;
+ }
+
+ .organised {
+  position: absolute;
+  width: 218px;
+  height: 17px;
+  left: 0px;
+  bottom: 165px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #FAF5E7;
+
+ }
+ .countdown {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Futura";
+ }
